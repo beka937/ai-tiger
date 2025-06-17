@@ -1,0 +1,239 @@
+/* Общие стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff4ee;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Шапка */
+.header {
+  background: transparent;
+  padding: 20px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00c8ff;
+}
+
+.nav a {
+  margin-left: 25px;
+  font-size: 16px;
+  color: #444;
+}
+
+.nav .btn {
+  background: linear-gradient(to right, #5c58ff, #9e72ff);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+/* Герой */
+.hero {
+  background: url('images/bg.png') no-repeat center/cover;
+  padding: 80px 0;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero .text h1 {
+  font-size: 40px;
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+
+.hero .text h1 span {
+  color: #0040ff;
+}
+
+.hero .text p {
+  max-width: 500px;
+  margin: 20px 0;
+  color: #666;
+}
+
+.hero .btn {
+  background: linear-gradient(to right, #5c58ff, #9e72ff);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 20px;
+}
+
+/* Секции */
+.section {
+  padding: 60px 0;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-content .text {
+  flex: 1;
+  padding: 20px;
+}
+
+.section-content .image {
+  flex: 1;
+  text-align: center;
+}
+
+.section-content .image img {
+  max-width: 90%;
+  height: auto;
+}
+
+.section-content h2 {
+  color: #f16a6a;
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.section-content p {
+  color: #555;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.section-content .btn {
+  background: linear-gradient(to right, #5c58ff, #9e72ff);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 20px;
+}
+
+.section.alt {
+  background-color: #fff0e6;
+}
+
+/* Цены */
+.pricing {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 32px;
+  color: #f16a6a;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.featured {
+  background: linear-gradient(to bottom, #5c58ff, #9e72ff);
+  color: #fff;
+}
+
+.card .price {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.card .price span {
+  font-size: 14px;
+  color: inherit;
+}
+
+.card ul {
+  list-style: none;
+  text-align: left;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
+
+.card .btn {
+  display: inline-block;
+  background: #fff;
+  color: #5c58ff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.card .btn.light {
+  background: #5c58ff;
+  color: #fff;
+}
+
+/* Футер */
+.footer {
+  background: #fff0e6;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00c8ff;
+}
+
+.footer p {
+  color: #777;
+  margin: 10px 0;
+}
+
+.footer .socials a {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #444;
+}
